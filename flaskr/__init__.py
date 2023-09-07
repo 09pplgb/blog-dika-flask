@@ -1,4 +1,11 @@
-#import aplikasi flask untuk dipakai di web kita
+# import aplikasi flask, OS, flash, jsonify, redirect, dan render_template untuk dipakai di web kita
+import os
+# import SQL untuk akses database
+from cs50 import SQL
+# import flash untuk notifikasi pada web
+# import jsonify untuk memformat data
+# import redirect dan render_template untuk berpimdah halaman web
+# import request dan session untuk mengakses data
 from flask import Flask
 
 #mengatur nama aplikasi
